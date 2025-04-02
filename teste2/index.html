@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feche Sua Primeira Venda em 7 Dias - Método Comprovado</title>
+    <title>O Guia Definitivo para Conseguir Seu PRIMEIRO CLIENTE/VENDA em 7 Dias</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -62,24 +62,20 @@
             color: var(--yellow);
         }
         
-        .logo span {
-            color: var(--primary);
-        }
-        
         .header-content {
             max-width: 900px;
             margin: 0 auto;
         }
         
         h1 {
-            font-size: 2.8rem;
+            font-size: 2.5rem;
             margin-bottom: 15px;
             line-height: 1.2;
             color: var(--yellow);
         }
         
         .subtitle {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             margin-bottom: 30px;
             font-weight: 400;
             color: var(--white);
@@ -131,6 +127,65 @@
             border-radius: 10px;
         }
         
+        /* Social Proof - Screenshots */
+        .screenshots-section {
+            padding: 60px 0;
+            background-color: var(--secondary);
+            color: var(--white);
+            text-align: center;
+        }
+        
+        .screenshots-title {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: var(--yellow);
+        }
+        
+        .screenshots-container {
+            max-width: 1000px;
+            margin: 40px auto 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .screenshots-slider {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        
+        .screenshot-slide {
+            min-width: 100%;
+            padding: 0 20px;
+        }
+        
+        .screenshot-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 3px solid var(--primary);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .slider-nav {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .slider-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .slider-dot.active {
+            background-color: var(--primary);
+        }
+        
         /* Pain Section */
         .pain-section {
             background-color: var(--light);
@@ -139,7 +194,7 @@
         }
         
         .section-title {
-            font-size: 2.2rem;
+            font-size: 2rem;
             margin-bottom: 40px;
             color: var(--secondary);
             position: relative;
@@ -353,7 +408,7 @@
         }
         
         .new-price {
-            font-size: 4rem;
+            font-size: 3.5rem;
             font-weight: 900;
             color: var(--yellow);
             margin: 10px 0;
@@ -487,10 +542,6 @@
             color: var(--yellow);
         }
         
-        .footer-logo span {
-            color: var(--primary);
-        }
-        
         .social-icons {
             display: flex;
             justify-content: center;
@@ -540,11 +591,11 @@
         /* Responsive */
         @media (max-width: 768px) {
             h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
             
             .subtitle {
-                font-size: 1.2rem;
+                font-size: 1.1rem;
             }
             
             .section-title {
@@ -552,7 +603,7 @@
             }
             
             .new-price {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
             
             .old-price {
@@ -588,12 +639,12 @@
 <body>
     <header>
         <div class="container">
-            <div class="logo">1K <span>POR DIA</span></div>
+            <div class="logo">PRIMEIRO CLIENTE EM 7 DIAS</div>
             <div class="header-content">
-                <h1>Feche Sua Primeira Venda em 7 Dias (Mesmo Sem Experiência!)</h1>
-                <div class="subtitle">O Método Definitivo Que Já Ajudou 217 Pessoas a Conseguir Seu Primeiro Cliente em 2024</div>
-                <div class="header-badge">MÉTODO 100% COMPROVADO</div>
-                <p>Assim como eu vendi meu primeiro produto digital sem ter seguidores ou investir em anúncios, você vai descobrir o passo a passo orgânico que já ajudou até vendedores de doces a faturar rápido.</p>
+                <h1>O Guia Definitivo para Conseguir Seu PRIMEIRO CLIENTE/VENDA em 7 Dias (Mesmo Sem Experiência!)</h1>
+                <div class="subtitle">Método Validado Por 217 Iniciantes em 2024 - Feche Sua Primeira Venda Sem Investir em Anúncios ou Ter Audiência</div>
+                <div class="header-badge">MÉTODO 100% ORGÂNICO</div>
+                <p>Assim como eu vendi meu primeiro produto digital sem ter seguidores ou investir em anúncios, você vai descobrir o passo a passo que já ajudou até vendedores de doces a faturar rápido.</p>
                 <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Empreendedor feliz" class="hero-image">
             </div>
         </div>
@@ -605,6 +656,32 @@
             <div class="video-container">
                 <!-- Substitua pelo seu vídeo real -->
                 <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <section class="screenshots-section">
+        <div class="container">
+            <h2 class="screenshots-title">PROVAS SOCIAIS - QUEM JÁ USOU E APROVOU</h2>
+            <p>Veja alguns resultados reais de pessoas que aplicaram o método:</p>
+            
+            <div class="screenshots-container">
+                <div class="screenshots-slider" id="screenshotsSlider">
+                    <div class="screenshot-slide">
+                        <img src="img_0136 (1).png" alt="Print de conversa com cliente" class="screenshot-img">
+                    </div>
+                    <div class="screenshot-slide">
+                        <img src="img_0136 (2).png" alt="Depoimento de aluno" class="screenshot-img">
+                    </div>
+                    <div class="screenshot-slide">
+                        <img src="img_0136.png" alt="Comprovante de pagamento" class="screenshot-img">
+                    </div>
+                </div>
+                <div class="slider-nav" id="sliderDots">
+                    <div class="slider-dot active"></div>
+                    <div class="slider-dot"></div>
+                    <div class="slider-dot"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -664,7 +741,7 @@
     
     <section class="testimonials-section">
         <div class="container">
-            <h2 class="section-title" style="color: var(--yellow);">Quem Já Usou e Aprovou</h2>
+            <h2 class="section-title" style="color: var(--yellow);">Depoimentos de Quem Já Usou</h2>
             
             <div class="testimonials-container">
                 <div class="testimonials-grid">
@@ -776,8 +853,8 @@
     
     <footer>
         <div class="container">
-            <div class="footer-logo">1K <span>POR DIA</span></div>
-            <p>O Guia Definitivo para Conseguir Seu PRIMEIRO CLIENTE/VENDA em 7 Dias</p>
+            <div class="footer-logo">PRIMEIRO CLIENTE EM 7 DIAS</div>
+            <p>O Guia Definitivo para Conseguir Seu PRIMEIRO CLIENTE/VENDA em 7 Dias (Mesmo Sem Experiência!)</p>
             
             <div class="social-icons">
                 <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
@@ -812,6 +889,37 @@
         
         setInterval(updateCountdown, 1000);
         updateCountdown();
+        
+        // Screenshots Slider
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.screenshot-slide');
+        const dots = document.querySelectorAll('.slider-dot');
+        const slider = document.getElementById('screenshotsSlider');
+        
+        function showSlide(index) {
+            slider.style.transform = `translateX(-${index * 100}%)`;
+            
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+            
+            currentSlide = index;
+        }
+        
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+        
+        // Auto slide every 5 seconds
+        setInterval(nextSlide, 5000);
+        
+        // Click on dots
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                showSlide(index);
+            });
+        });
     </script>
 </body>
 </html>
